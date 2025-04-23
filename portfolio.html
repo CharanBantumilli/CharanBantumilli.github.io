@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Charan Bantumilli</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="styles/main.js"></script>
+
+</head>
+<body class="shadow-monarch-bg">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black bg-opacity-80 backdrop-filter backdrop-blur-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <span class="text-white text-xl font-bold glow-text">CHARAN BANTUMILLI</span>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="nav-link text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#about" class="nav-link text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#skills" class="nav-link text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Skills</a>
+                        <a href="#projects" class="nav-link text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                        <a href="#experience" class="nav-link text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Experience</a>
+                        <a href="#contact" class="nav-link text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="nav-link text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="#about" class="nav-link text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="#skills" class="nav-link text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</a>
+                <a href="#projects" class="nav-link text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+                <a href="#experience" class="nav-link text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Experience</a>
+                <a href="#contact" class="nav-link text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-black opacity-70"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 glow-text">I AM <span class="text-blue-400">CHARAN BANTUMILLI</span></h1>
+                    <h2 class="text-2xl md:text-3xl text-gray-300 mb-6">Of <span class="text-blue-300">Data Science & Cybersecurity</span></h2>
+                    <p class="text-gray-300 mb-8 max-w-lg">Emerging from the depths of Data Science, I possess mastery in Machine Learning and a foundation in Mechanical Engineering, constantly evolving and refining my craft. I do not simply follow trends, I ascend above them. Driven by an insatiable desire for mastery in Artificial Intelligence and Cybersecurity, I am on a relentless quest to reshape the future of technology. I don't wait for opportunities to arise, I forge my own path, leveling up the world around me, one innovation at a time.</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-white font-medium transition duration-300 glow-box">Summon Me</a>
+                        <a href="#projects" class="px-6 py-3 border border-blue-400 hover:bg-blue-900 hover:bg-opacity-30 rounded-md text-blue-400 font-medium transition duration-300 glow-box">Projects</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center relative">
+                    <div class="relative floating">
+                        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-blue-400 glow-box shadow-lg overflow-hidden">
+                            <img src="styles/blue-fire-bird-isolate-on-600nw-1442216015.webp" alt="CHARAN BANTUMILLI class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-blue-500 filter blur-3xl opacity-30"></div>
+            <div class="absolute top-3/4 right-1/4 w-64 h-64 rounded-full bg-purple-500 filter blur-3xl opacity-30"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 glow-text"><span class="text-blue-400">ARCHIVES</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-2xl mx-auto">The chronicles of my journey through the realms of technology and knowledge.</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box mb-8">
+                        <h3 class="text-xl font-bold text-white mb-4">Objective</h3>
+                        <p class="text-gray-300">A B.Tech graduate in Data Science with real-world experience in Machine Learning, built on the foundation of a Diploma in Mechanical Engineering. I explore the evolving world of Artificial Intelligence and Cybersecurity with focus, discipline, and a hunger to master what lies ahead.</p>
+                    </div>
+                    
+                    <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box">
+                        <h3 class="text-xl font-bold text-white mb-6">Education</h3>
+                        
+                        <div class="timeline-item">
+                            <h4 class="text-lg font-bold text-blue-400">Bachelor of Technology in Data Science</h4>
+                            <p class="text-gray-400">2022-2025 | KKR & KSR Institute of Technology and Sciences, Guntur, Andhra Pradesh</p>
+                            <p class="text-gray-300 mt-2"><span class="font-medium">Key Coursework:</span> Data Analysis, Machine Learning, Data Visualization</p>
+                            <p class="text-gray-300 mt-2"><span class="font-medium">Relevant Project:</span> Developed a machine learning model using supervised learning techniques to predict fire hazards based on real-time sensor data.</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="text-lg font-bold text-blue-400">Diploma in Mechanical Engineering</h4>
+                            <p class="text-gray-400">2019-2022 | Chalapathi Institute of Technology, Mothadaka</p>
+                            <p class="text-gray-300 mt-2"><span class="font-medium">Key Coursework:</span> Mechanical Design, Manufacturing Processing</p>
+                            <p class="text-gray-300 mt-2"><span class="font-medium">Relevant Project:</span> Designed small-scale robotic models using SolidWorks</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box mb-8">
+                        <h3 class="text-xl font-bold text-white mb-6">Hobbies & Interests</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-gray-800 bg-opacity-50 rounded-lg p-4 flex items-center glow-box hover:bg-blue-900 hover:bg-opacity-30 transition duration-300">
+                                <div class="w-16 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                                    <i class="fas fa-book text-blue-300"></i>
+                                </div>
+                                <span class="text-gray-300">Reading Comics and Tech Books</span>
+                            </div>
+                            <div class="bg-gray-800 bg-opacity-50 rounded-lg p-4 flex items-center glow-box hover:bg-blue-900 hover:bg-opacity-30 transition duration-300">
+                                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                                    <i class="fas fa-music text-blue-300"></i>
+                                </div>
+                                <span class="text-gray-300">Listening to Music</span>
+                            </div>
+                            <div class="bg-gray-800 bg-opacity-50 rounded-lg p-4 flex items-center glow-box hover:bg-blue-900 hover:bg-opacity-30 transition duration-300">
+                                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                                    <i class="fas fa-gamepad text-blue-300"></i>
+                                </div>
+                                <span class="text-gray-300">Playing Video Games</span>
+                            </div>
+                            <div class="bg-gray-800 bg-opacity-50 rounded-lg p-4 flex items-center glow-box hover:bg-blue-900 hover:bg-opacity-30 transition duration-300">
+                                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                                    <i class="fas fa-laptop-code text-blue-300"></i>
+                                </div>
+                                <span class="text-gray-300">Coding Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box">
+                        <h3 class="text-xl font-bold text-white mb-4">Additional Details</h3>
+                        <p class="text-gray-300 mb-6">Open to full-time roles & internships in Data Science, AI/ML, and Cybersecurity.</p>
+                        
+                        <h3 class="text-xl font-bold text-white mb-4">Certifications</h3>
+                        <div class="space-y-3">
+                            <div class="flex items-start">
+                                <i class="fas fa-certificate text-blue-400 mt-1 mr-3"></i>
+                                <span class="text-gray-300">Certified System Administrator — ServiceNow</span>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-certificate text-blue-400 mt-1 mr-3"></i>
+                                <span class="text-gray-300">Python Basic Certification — HackerRank</span>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-certificate text-blue-400 mt-1 mr-3"></i>
+                                <span class="text-gray-300">NDG Linux Essentials — CISCO</span>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-certificate text-blue-400 mt-1 mr-3"></i>
+                                <span class="text-gray-300">Intro to Cybersecurity — EduSkills</span>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-certificate text-blue-400 mt-1 mr-3"></i>
+                                <span class="text-gray-300">CompTIA Security+ Training Course — IBM-SkillBuild</span>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-certificate text-blue-400 mt-1 mr-3"></i>
+                                <span class="text-gray-300">SQL Injection — CodeRed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-1/3 left-1/3 w-64 h-64 rounded-full bg-blue-500 filter blur-3xl opacity-20"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-purple-500 filter blur-3xl opacity-20"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 glow-text"><span class="text-blue-400">POWERS</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-2xl mx-auto">The arsenal of skills I've mastered to conquer the digital realm.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Operating Systems -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-desktop text-blue-300 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Operating Systems</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Linux (Ubuntu, Debian, RHEL)</span>
+                                <span class="text-blue-400">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">MacOS</span>
+                                <span class="text-blue-400">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Windows</span>
+                                <span class="text-blue-400">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Programming -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-code text-blue-300 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Programming</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Python</span>
+                                <span class="text-blue-400">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">SQL</span>
+                                <span class="text-blue-400">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Bash</span>
+                                <span class="text-blue-400">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Java</span>
+                                <span class="text-blue-400">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI Tools/Frameworks -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-brain text-blue-300 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">AI Tools/Frameworks</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">TensorFlow</span>
+                                <span class="text-blue-400">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">PyTorch</span>
+                                <span class="text-blue-400">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Hugging Face</span>
+                                <span class="text-blue-400">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">OpenCV</span>
+                                <span class="text-blue-400">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Data Analysis & Visualization -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-chart-bar text-blue-300 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Data Analysis & Visualization</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Power BI</span>
+                                <span class="text-blue-400">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Matplotlib</span>
+                                <span class="text-blue-400">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-shield-alt text-blue-300 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">CyberSecurity</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Network Security</span>
+                                <span class="text-blue-400">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Penetration Testing</span>
+                                <span class="text-blue-400">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Technologies -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-tools text-blue-300 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tools & Technologies</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Jupyter Notebook</span>
+                                <span class="text-blue-400">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Git</span>
+                                <span class="text-blue-400">89%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 89%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">Docker</span>
+                                <span class="text-blue-400">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-300">SolidWorks</span>
+                                <span class="text-blue-400">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-blue-500 filter blur-3xl opacity-20"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-purple-500 filter blur-3xl opacity-20"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 glow-text">THE <span class="text-blue-400">LEGION</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-2xl mx-auto">The projects I've summoned to conquer real-world challenges.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Virtual Assistant -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl overflow-hidden glow-box hover:shadow-xl transition duration-300">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="styles/pexels-merlin-11130382.jpg" alt="Virtual Assistant" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <span class="bg-blue-600 text-white text-xs font-medium px-2.5 py-0.5 rounded">AI</span>
+                            <span class="bg-purple-600 text-white text-xs font-medium px-2.5 py-0.5 rounded ml-1">NLP</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Virtual Assistant (MEDHA)</h3>
+                        <p class="text-gray-300 mb-4">Developed an AI-powered assistant to support students in their academic journey.</p>
+                        <ul class="text-gray-400 text-sm space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Integrated a pretrained NLP model from Hugging Face with machine learning algorithms</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Offers academic support, schedule management, and resource recommendations</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Hugging Face</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">NLP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Heart-stroke Prediction -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl overflow-hidden glow-box hover:shadow-xl transition duration-300">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="styles/oa7a_mh0w_220113.jpg" alt="Heart-stroke Prediction" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <span class="bg-blue-600 text-white text-xs font-medium px-2.5 py-0.5 rounded">ML</span>
+                            <span class="bg-red-600 text-white text-xs font-medium px-2.5 py-0.5 rounded ml-1">HealthTech</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Heart-stroke Prediction</h3>
+                        <p class="text-gray-300 mb-4">Developed a heart-stroke prediction model using supervised learning with Linear Regression.</p>
+                        <ul class="text-gray-400 text-sm space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Analyzes real-time health data collected from fitness gadgets</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Used Python, Pandas and Regression Models to predict stroke risks</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Pandas</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Regression</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fire & Smoke Detection System -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl overflow-hidden glow-box hover:shadow-xl transition duration-300">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="styles/fire-flames-isolated-black-background-abstract-blaze-fire-flame-texture_90220-2997.webp" alt="Fire & Smoke Detection" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <span class="bg-blue-600 text-white text-xs font-medium px-2.5 py-0.5 rounded">Deep Learning</span>
+                            <span class="bg-orange-600 text-white text-xs font-medium px-2.5 py-0.5 rounded ml-1">Computer Vision</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Fire & Smoke Detection System</h3>
+                        <p class="text-gray-300 mb-4">Designed an DL-based early fire detection system using YOLO Model.</p>
+                        <ul class="text-gray-400 text-sm space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Applied image processing techniques for accurate smoke detection</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Improved detection accuracy to 90%+ using optimized DL models</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">YOLO</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">OpenCV</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Image Processing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Course Website -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl overflow-hidden glow-box hover:shadow-xl transition duration-300">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="styles/360_F_471915145_M16KppZKn8WheFgv2tnWa3CIfmb6Cuag.webp" alt="Course Website" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <span class="bg-blue-600 text-white text-xs font-medium px-2.5 py-0.5 rounded">Web Dev</span>
+                            <span class="bg-green-600 text-white text-xs font-medium px-2.5 py-0.5 rounded ml-1">EdTech</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Course Website (FreeLearn)</h3>
+                        <p class="text-gray-300 mb-4">Built a learning platform for beginners to learn technical skills.</p>
+                        <ul class="text-gray-400 text-sm space-y-2 mb-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Project was recognized at Infosys ICT Academy</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Earned a certification for the project</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">PHP</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">SQL</span>
+                            <span class="text-xs bg-gray-800 text-blue-300 px-2 py-1 rounded">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Projects -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl overflow-hidden glow-box hover:shadow-xl transition duration-300 shadow-gate">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="styles/istockphoto-1149094114-612x612.jpg" alt="More Projects" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center p-4">
+                                <i class="fas fa-plus-circle text-4xl text-blue-400 mb-2"></i>
+                                <h3 class="text-xl font-bold text-white">More Projects</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-300 mb-4">My knowledge continues to grow with each passing day. Many more projects are being forged in the darkness.</p>
+                        <div class="text-center">
+                            <button class="px-4 py-2 border border-blue-400 hover:bg-blue-900 hover:bg-opacity-30 rounded-md text-blue-400 text-sm font-medium transition duration-300 glow-box">
+                                From the Abyss, I Return…
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-blue-500 filter blur-3xl opacity-20"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-purple-500 filter blur-3xl opacity-20"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 glow-text"><span class="text-blue-400">DOMINION'S GATE</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-2xl mx-auto">The portals I've traversed to gain knowledge and power in the digital realm.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Cloud Computing Intern -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box">
+                    <div class="flex items-start mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-cloud text-blue-300 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Cloud Computing Intern</h3>
+                            <p class="text-blue-400">AWS Academy</p>
+                        </div>
+                    </div>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Gained foundational knowledge of AWS services (EC2, S3, IAM)</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Data Science Master Intern -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box">
+                    <div class="flex items-start mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-robot text-blue-300 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Data Science Master Intern</h3>
+                            <p class="text-blue-400">Altair</p>
+                        </div>
+                    </div>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Worked with Python, TensorFlow, and SQL to enhance model accuracy and efficiency</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Built and deployed AI models on cloud platforms (AWS/Azure) for real-time analytics</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Conducted exploratory data analysis (EDA) to extract insights from large datasets</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Cybersecurity Intern -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box">
+                    <div class="flex items-start mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-shield-alt text-blue-300 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Cybersecurity Intern</h3>
+                            <p class="text-blue-400">Palo Alto Networks</p>
+                        </div>
+                    </div>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Gained experience in ethical hacking, penetration testing, and incident response</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Worked with Metasploit, Nmap, and Burp Suite for security assessments</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Completed training on network security, cryptography, and cyber threat intelligence</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Worked on Cloud Security Fundamentals and Virtualization</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- CS-Network Analyzer Intern -->
+                <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box">
+                    <div class="flex items-start mb-6">
+                        <div class="w-12 h-12 rounded-full bg-blue-900 flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-network-wired text-blue-300 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">CS-Network Analyzer Intern</h3>
+                            <p class="text-blue-400">IBM Skill-Build</p>
+                        </div>
+                    </div>
+                    <ul class="text-gray-400 text-sm space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Analyzed network traffic to detect potential security threats</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Hands-on experience with Wireshark, ping, tracert, netstat</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Conducted packet capture and analysis to understand data transmission patterns</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-blue-500 filter blur-3xl opacity-20"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-purple-500 filter blur-3xl opacity-20"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 glow-text"><span class="text-blue-400">COMMAND MY PRESENCE</span></h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-2xl mx-auto">Initiate the protocol. Send your message through the gateway.</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box mb-8">
+                        <h3 class="text-xl font-bold text-white mb-6">Direct Summoning</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-envelope text-blue-300"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-gray-300 font-medium">Email</h4>
+                                    <a href="mailto:charanbantumilli.gz@gmail.com" class="text-blue-400 hover:text-blue-300">CHARANBANTUMILLI</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-phone-alt text-blue-300"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-gray-300 font-medium">Phone</h4>
+                                    <a href="tel:+917674954431" class="text-blue-400 hover:text-blue-300">+91 7674954431</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-blue-300"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-gray-300 font-medium">Location</h4>
+                                    <p class="text-blue-400">India</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-10">
+                            <h3 class="text-xl font-bold text-white mb-6">Join the Abyss</h3>
+                            <div class="flex space-x-4">
+                                <a href="https://github.com/CharanBantumilli" class="w-10 h-10 rounded-full bg-blue-900 hover:bg-blue-800 flex items-center justify-center text-blue-300 glow-box">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/charanbantumilli" class="w-10 h-10 rounded-full bg-blue-900 hover:bg-blue-800 flex items-center justify-center text-blue-300 glow-box">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://x.com/Saichar75562373" class="w-10 h-10 rounded-full bg-blue-900 hover:bg-blue-800 flex items-center justify-center text-blue-300 glow-box">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-blue-900 hover:bg-blue-800 flex items-center justify-center text-blue-300 glow-box">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-gray-900 bg-opacity-70 rounded-xl p-8 glow-box shadow-gate">
+                        <h3 class="text-xl font-bold text-white mb-6">Command the Darkness</h3>
+                        
+                        <form id="contact-form" action="https://formspree.io/f/mpwdzrkn" method="POST">
+                            <input type="hidden" name="_next" value="https://mail.google.com/">
+                            <div class="mb-6">
+                                <label for="name" class="block text-gray-300 mb-2">Your Name</label>
+                                <input type="text" id="name" name="Portfolio" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white" placeholder="Enter your name">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="email" class="block text-gray-300 mb-2">Your Email</label>
+                                <input type="email" id="email" name="Portfolio" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white" placeholder="Enter your email">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="subject" class="block text-gray-300 mb-2">Subject</label>
+                                <input type="text" id="subject" name="Portfolio" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white" placeholder="Enter subject">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-300 mb-2">Your Message</label>
+                                <textarea id="message" rows="5" name="Portfolio" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white" placeholder="Enter your message"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-white font-medium transition duration-300 glow-box">
+                                UNLEASH
+                            </button>
+                        </form>
+                        <div id="thank-you-message" style="display: none;">
+                            <p>Thank you for your submission!</p>
+                        </div>
+                        <script>
+                            const form = document.querySelector("form");
+                          
+                            form.addEventListener("submit", function (event) {
+                              event.preventDefault(); // Prevent the default form submission
+                          
+                              fetch(form.action, {
+                                method: "POST",
+                                body: new FormData(form),
+                              })
+                              .then(response => response.json())
+                              .then(data => {
+                                // Show thank you message after successful submission
+                                document.getElementById("thank-you-message").style.display = "block";
+                                form.style.display = "none"; // Optionally hide the form after submission
+                              })
+                              .catch(error => {
+                                console.error('Error submitting form:', error);
+                              });
+                            });
+                          </script>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black bg-opacity-80 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <span class="text-white text-xl font-bold glow-text">The higher I rise, the darker my silence becomes.</span>
+                </div>
+                <div class="flex flex-col items-center md:items-end">
+                    <p class="text-gray-500 text-sm">~ CHARAN BANTUMILLI</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
